@@ -1,4 +1,4 @@
-import Response from "@/components/Response"
+import Response from "../../shared/components/Response"
 
 export default function Home() {
   return (
