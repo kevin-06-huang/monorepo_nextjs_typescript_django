@@ -15,7 +15,7 @@ const Response = () => {
   
 
   return(
-    <div>Test</div>
+    <div>Component that fetch from Django</div>
   );
 };
 
