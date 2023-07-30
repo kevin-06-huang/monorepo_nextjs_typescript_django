@@ -11,7 +11,7 @@ const HomePage = () => {
     }
     fetchData();
   }, []);
-  
+
   const fetchData = async () => {
     const res = fetch("http://127.0.0.1:8000/", {
       method: "GET",
@@ -26,7 +26,10 @@ const HomePage = () => {
           <p className="text-3xl font-semibold">
             This is the typescript portion of the monorepo
           </p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={fetchData}>
+          <button
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            onClick={fetchData}
+          >
             Fetch
           </button>
         </div>
