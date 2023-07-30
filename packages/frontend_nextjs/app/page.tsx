@@ -1,4 +1,6 @@
-import Response from "@/components/Response"
+'use client'
+
+import Response from "../../common/components/src/Response";
 
 export default function Home() {
   return (
