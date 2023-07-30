@@ -1,5 +1,5 @@
 import type { RouteObject } from "react-router-dom";
-import Layout from "../../../shared/components/Layout";
+import Layout from "../../../common/components/Layout";
 import HomePage from "../pages/home.page";
 
 const normalRoutes: RouteObject = {
