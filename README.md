@@ -1,1 +1,1 @@
-# monorepo demo with nextjs frontend and django backend
+# monorepo demo with nextjs frontend, typescript frontend (separate) and django backend
