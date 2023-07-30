@@ -1,6 +1,4 @@
-'use client'
-
-import Response from "../../common/components/src/Response";
+import ClientComponentResponseWrapper from "@/components/ClientComponentResponseWrapper"
 
 export default function Home() {
   return (
@@ -9,7 +7,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto bg-ct-dark-100 rounded-md h-[20rem] flex justify-center items-center">
           <p className="text-3xl font-semibold">SSR HTML</p>
         </div>
-        <Response/>
+        <ClientComponentResponseWrapper/>
       </section>
     </main>
   )
