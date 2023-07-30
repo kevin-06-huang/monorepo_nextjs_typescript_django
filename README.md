@@ -16,13 +16,16 @@ Follow these steps to run the project:
 
 ```bash
 pnpm install
+```
 
 2. **Start the Django server**:
 
 ```bash
 python3 manage.py runserver
+```
 
 3. **Run the frontend projects**:
 
 ```bash
 lerna run dev --parallel
+```
