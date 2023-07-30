@@ -1,1 +1,0 @@
-# python(3) manage.py runserver
