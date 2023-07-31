@@ -18,13 +18,19 @@ Follow these steps to run the project:
 pnpm install
 ```
 
-2. **Start the Django server**:
+2. **Migrate the sqlite database**:
+
+```bash
+python3 manage.py migrate
+```
+
+3. **Start the Django server**:
 
 ```bash
 python3 manage.py runserver
 ```
 
-3. **Run the frontend projects**:
+4. **Run the frontend projects**:
 
 ```bash
 lerna run dev --parallel
