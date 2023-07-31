@@ -36,3 +36,7 @@ next-env.d.ts
 
 # vscode
 .vscode
+
+# python
+__pycache__
+db.sqlite3
