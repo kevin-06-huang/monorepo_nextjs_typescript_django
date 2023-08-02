@@ -6,7 +6,7 @@ This project is a demonstration of a monorepo setup with the following component
 - A separate frontend developed with TypeScript.
 - A backend developed with Django.
 
-The `node_modules` directories are shared using `pnpm` and `lerna` for efficient package management.
+The `node_modules` directories are shared using `pnpm` and `lerna` for efficient package management, and the components for both frontends are shared in a common folder as well.
 
 ## How to Run
 
